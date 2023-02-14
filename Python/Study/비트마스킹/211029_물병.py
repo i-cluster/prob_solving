@@ -5,7 +5,7 @@
 # s_input = stdin.readline
 
 import sys
-sys.stdin = open('../../sample.txt', 'r')
+sys.stdin = open('../../testcase.txt', 'r')
 
 for i in range(int(input())):
     # 현재 물병 N, 목표 물병 K
